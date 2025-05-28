@@ -5,21 +5,21 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "STARK-ALI~3140XLAT#vsoI884c64COF7sCzqLT2LyI7Q4miCfL8Qs-9U_a67k",
+SESSION_ID: process.env.SESSION_ID || "STARK-ALI~zkRCyAyS#2RO2ob_QoKT-Y9d6L451FA40lQpDcufM1eOTgOinO5w",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "**",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "ALI-MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "ALI-MD",
+STICKER_NAME: process.env.STICKER_NAME || "ALONE-BABAI",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -27,13 +27,13 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923003588997",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "917439857837",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ALI",
+OWNER_NAME: process.env.OWNER_NAME || "ALONE-BABAI",
 // add bot owner name 
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
-GOODBYE: process.env.GOODBYE || "true",
+GOODBYE: process.env.TUPODMARAGUDMARANI || "true",
 // true if want goodbye msg in groups
 ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
 // make true to know who dismiss or promoted a member in group
@@ -45,7 +45,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 //maks anticall true, false for calls
 //REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*", 
 // add anticall message 
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽💀*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘσωєʀє∂ ву ALONE BABAI*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://cdn.ironman.my.id/i/2du3i5.jpg",
 // add img for alive msg
