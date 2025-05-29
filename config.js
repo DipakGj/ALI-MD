@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "STARK-ALI~zkRCyAyS#2RO2ob_QoKT-Y9d6L451FA40lQpDcufM1eOTgOinO5w",
+SESSION_ID: process.env.SESSION_ID || "STARK-ALI~rlxg2JzR#tEIqTk5zKdpFU-brf4zoIL8opU_ePbBwCBk-nGn3eKI",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -31,9 +31,9 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "917439857837",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "ALONE-BABAI",
 // add bot owner name 
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "falsee",
 // true if want welcome msg in groups
-GOODBYE: process.env.TUPODMARAGUDMARANI || "true",
+GOODBYE: process.env.TUPODMARAGUDMARANI || "false",
 // true if want goodbye msg in groups
 ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
 // make true to know who dismiss or promoted a member in group
@@ -57,7 +57,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 DELETE_LINK: process.env.DELETE_LINK || "true",
 // make anti link true,false for groups 
