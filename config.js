@@ -33,7 +33,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ALONE-BABAI",
 // add bot owner name 
 WELCOME: process.env.WELCOME || "falsee",
 // true if want welcome msg in groups
-GOODBYE তুইপোদমারাবোকাচোদা: process.env.TUPODMARAGUDMARANI || "true",
+GOODBYE : process.env.TUPODMARAGUDMARANI || "false",
 // true if want goodbye msg in groups
 ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
 // make true to know who dismiss or promoted a member in group
